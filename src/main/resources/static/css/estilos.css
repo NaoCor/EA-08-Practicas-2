@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    font-size: 32px;
+    color: black;
+}
+p{
+    color: black;
+}
+
+h4{
+    text-align: center;
+    
+}
+.derecha{
+    text-align: right;
+}
+section{
+    position: fixed;
+    text-align: center;
+    background-color:#ccccff;
+    top: 98px;
+    left: 20%;
+    bottom: 20px;
+    width: 80%;
+    overflow-y: scroll;
+}
+
+
+footer{
+    text-align: center;
+    position: fixed;
+    background-color: black;
+    color:white;
+    left: 0%;
+    bottom: 20px;
+    width: 100%;
+    height: 20px
+}
+.tipoAside{
+    text-align: center;
+    color:#000066; 
+   font-weight: bold;
+   font-size: 40px   
+}
+
+
+aside{
+    position: fixed;
+    background-color:#9999ff;
+    color: white;
+    top: 98px;
+    left: 0;
+    bottom: 20px;
+    width: 20%;
+}
+
+.encabezado{
+    position: fixed;
+    background-color: activecaption;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+.navegacion{
+    display:  flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 100px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 30px;
+    margin: 0 10px;
+    line-height: 100px;
+
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 20px;
+
+}
+.nav-menu-link:hover{
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #660099;
+    animation-delay: 0.5s;
+}
+
